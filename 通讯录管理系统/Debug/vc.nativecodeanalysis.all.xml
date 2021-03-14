@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\vcapp\自作\通讯录管理系统\通讯录管理系统</FILEPATH>
+      <FILENAME>通讯录管理系统.cpp</FILENAME>
+      <LINE>223</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“136036”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>223</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\vcapp\自作\通讯录管理系统\通讯录管理系统</FILEPATH>
+      <FILENAME>通讯录管理系统.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'addressbooks::size' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>addressbooks::{ctor}</FUNCTION>
+    <DECORATED>??0addressbooks@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\vcapp\自作\通讯录管理系统\通讯录管理系统</FILEPATH>
+      <FILENAME>通讯录管理系统.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'person::phone' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>person::{ctor}</FUNCTION>
+    <DECORATED>??0person@@QAE@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
